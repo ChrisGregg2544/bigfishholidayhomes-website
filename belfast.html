@@ -193,6 +193,10 @@
       .ft{grid-template-columns:1fr}
       .quick-links{gap:8px}
     }
+    .photo-credit{font-size:10px;color:var(--muted);padding:5px 8px 0;font-style:italic}
+    .photo-credit a{color:var(--muted);text-decoration:underline}
+    .img-credit{position:absolute;bottom:0;right:0;background:rgba(0,0,0,.45);color:rgba(255,255,255,.75);font-size:10px;padding:3px 8px;font-style:italic}
+    .img-credit a{color:rgba(255,255,255,.75);text-decoration:underline}
 </style>
 </head>
 <body>
@@ -216,7 +220,8 @@
       </div>
     </div>
     <div class="gh-img">
-      <img src="images/belfast-pictures/image-asset.webp" alt="Belfast city centre streets"/>
+      <img src="images/belfast-pictures/City Hall.jpg" alt="Belfast City Hall"/>
+      <p class="img-credit">Photo by Humphrey M on <a href="https://unsplash.com">Unsplash</a></p>
     </div>
   </div>
 </section>
@@ -254,8 +259,8 @@
         <div style="display:flex;flex-direction:column;gap:10px;margin-top:4px">
           <div class="rc2"><div class="rc2-name">Currency</div><div class="rc2-desc">British Pounds Sterling (&pound;). Cards accepted everywhere. ATMs on every high street.</div></div>
           <div class="rc2"><div class="rc2-name">Getting There</div><div class="rc2-desc"><strong>George Best City Airport</strong> (BHD) &mdash; 15 min from centre. <strong>Belfast International</strong> (BFS) &mdash; 45 min. Both have regular buses to Europa Bus Station, 2 min from Charles Street South.</div></div>
-          <div class="rc2"><div class="rc2-name">Weather</div><div class="rc2-desc">Mild and changeable year-round. Pack a layer and a waterproof &mdash; don&rsquo;t let a bit of rain put you off. Belfast is beautiful in all weathers.</div></div>
-          <div class="rc2"><div class="rc2-name">Getting Around</div><div class="rc2-desc">Very walkable city centre. Taxis are plentiful and cheap. Good bus network for wider city. Uber and FreeNow both operate in Belfast.</div></div>
+          <div class="rc2"><div class="rc2-name">Weather</div><div class="rc2-desc">The weather is changeable. Pack a jumper! and a waterproof! &mdash; don&rsquo;t let a bit of rain put you off. Belfast is beautiful in all weathers!</div></div>
+          <div class="rc2"><div class="rc2-name">Getting Around</div><div class="rc2-desc">Very walkable city centre. Taxis are plentiful and cheap. Good bus network for wider city. Uber and local taxis both operate in Belfast.</div></div>
         </div>
       </div>
     </div>
@@ -295,23 +300,28 @@
     <p class="body-text" style="max-width:600px;margin-bottom:36px">Belfast is packed with things to see and do. Here are our top picks &mdash; all easily reached on foot or by a short taxi from either of our properties.</p>
     <div class="three-col">
       <div class="attract-card">
-        <div class="ac-img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Crown_Liquor_Saloon%2C_Great_Victoria_Street%2C_Belfast_-_geograph.org.uk_-_2732488.jpg/800px-The_Crown_Liquor_Saloon%2C_Great_Victoria_Street%2C_Belfast_-_geograph.org.uk_-_2732488.jpg" alt="Crown Bar Belfast" loading="lazy"/></div>
+        <div class="ac-img"><img src="images/belfast-pictures/Crown Bar.jpg" alt="Crown Bar Belfast" loading="lazy"/></div>
+        <p class="photo-credit">Photo by K. Mitch Hodge on <a href="https://unsplash.com">Unsplash</a></p>
         <div class="ac-body"><div class="ac-cat">Historic Pub</div><div class="ac-title">The Crown Liquor Saloon</div><div class="ac-desc">A Victorian gin palace and National Trust property. The most photographed pub in Ireland &mdash; the ornate interior is absolutely stunning. Great for a pint and a pie.</div><div class="ac-dist">&#128205; 4 min walk from Charles Street South</div></div>
       </div>
       <div class="attract-card">
-        <div class="ac-img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Grand_Opera_House%2C_Belfast%2C_October_2010_%2802%29.JPG/800px-Grand_Opera_House%2C_Belfast%2C_October_2010_%2802%29.JPG" alt="Grand Opera House Belfast" loading="lazy"/></div>
+        <div class="ac-img"><img src="images/belfast-pictures/The_Grand_Opera_House_Belfast.jpg" alt="Grand Opera House Belfast" loading="lazy"/></div>
+        <p class="photo-credit">Photo by Christopher Heaney</p>
         <div class="ac-body"><div class="ac-cat">Culture</div><div class="ac-title">Grand Opera House</div><div class="ac-desc">One of Belfast&rsquo;s most beautiful buildings, the Opera House hosts world-class theatre, musicals and opera year-round. Check listings before you visit &mdash; there&rsquo;s nearly always something on.</div><div class="ac-dist">&#128205; 5 min walk from Charles Street South</div></div>
       </div>
       <div class="attract-card">
-        <div class="ac-img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Palm_House%2C_Botanic_Gardens%2C_Belfast%2C_August_2010_%2801%29.JPG/800px-Palm_House%2C_Botanic_Gardens%2C_Belfast%2C_August_2010_%2801%29.JPG" alt="Botanic Gardens Belfast" loading="lazy"/></div>
+        <div class="ac-img"><img src="images/belfast-pictures/Botanic Gardens.jpg" alt="Botanic Gardens Belfast" loading="lazy"/></div>
+        <p class="photo-credit">Photo by K. Mitch Hodge on <a href="https://unsplash.com">Unsplash</a></p>
         <div class="ac-body"><div class="ac-cat">Parks &amp; Gardens</div><div class="ac-title">Botanic Gardens</div><div class="ac-desc">Beautiful Victorian gardens next to Queens University. Free to enter. The Palm House is one of the earliest examples of curvilinear cast-iron glasshouse design in the world.</div><div class="ac-dist">&#128205; 5 min walk from The Cloisters</div></div>
       </div>
       <div class="attract-card">
-        <div class="ac-img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ann_Street%2C_Belfast_-_geograph.org.uk_-_5665927.jpg/800px-Ann_Street%2C_Belfast_-_geograph.org.uk_-_5665927.jpg" alt="Cathedral Quarter Belfast" loading="lazy"/></div>
+        <div class="ac-img"><img src="images/belfast-pictures/Cathedral Quarter.jpg" alt="Cathedral Quarter Belfast" loading="lazy"/></div>
+        <p class="photo-credit">Photo by K. Mitch Hodge on <a href="https://unsplash.com">Unsplash</a></p>
         <div class="ac-body"><div class="ac-cat">Nightlife &amp; Culture</div><div class="ac-title">Cathedral Quarter</div><div class="ac-desc">Belfast&rsquo;s bohemian quarter, centred around St Anne&rsquo;s Cathedral. Packed with independent bars, restaurants, galleries and the Black Box music venue. Come here for a night out.</div><div class="ac-dist">&#128205; 10 min walk from city centre</div></div>
       </div>
       <div class="attract-card">
-        <div class="ac-img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Victoria_Square%2C_Belfast%2C_June_2010.JPG/800px-Victoria_Square%2C_Belfast%2C_June_2010.JPG" alt="Victoria Square Belfast" loading="lazy"/></div>
+        <div class="ac-img"><img src="images/belfast-pictures/Victoria Square.jpg" alt="Victoria Square Belfast" loading="lazy"/></div>
+        <p class="photo-credit">Photo by K. Mitch Hodge on <a href="https://unsplash.com">Unsplash</a></p>
         <div class="ac-body"><div class="ac-cat">Shopping</div><div class="ac-title">Victoria Square</div><div class="ac-desc">Belfast&rsquo;s premier shopping centre with a stunning glass dome observation deck (free). All the major brands plus independent retailers. Great food court too.</div><div class="ac-dist">&#128205; 8 min walk from city centre</div></div>
       </div>
       <div class="attract-card">
@@ -377,7 +387,7 @@
     <p style="font-size:15px;color:rgba(247,242,235,.7);line-height:1.7;max-width:600px;margin-bottom:28px">Belfast is a compact, walkable city. Most things are within easy reach of both our properties. Here&rsquo;s how to get around.</p>
     <div class="trans-grid">
       <div class="tc2"><div class="tc2-icon">&#128652;</div><div class="tc2-title">Metro Bus</div><div class="tc2-desc">Excellent city bus network. Day ticket around &pound;4.50. Routes cover the whole city. Europa Bus Station (2 min from Charles Street South) is the main hub. Also direct buses to both airports.</div></div>
-      <div class="tc2"><div class="tc2-icon">&#128664;</div><div class="tc2-title">Taxi &amp; Ride Apps</div><div class="tc2-desc">Taxis are plentiful and reasonably priced. Uber and FreeNow both operate in Belfast. City centre to Titanic &mdash; around &pound;8. City centre to The Cloisters &mdash; around &pound;5.</div></div>
+      <div class="tc2"><div class="tc2-icon">&#128664;</div><div class="tc2-title">Taxi &amp; Ride Apps</div><div class="tc2-desc">Taxis are plentiful and reasonably priced. Uber and local taxis both operate in Belfast. City centre to Titanic &mdash; around &pound;8. City centre to The Cloisters &mdash; around &pound;5.</div></div>
       <div class="tc2"><div class="tc2-icon">&#128694;</div><div class="tc2-title">Walking</div><div class="tc2-desc">The best way to see Belfast. City centre, Cathedral Quarter, Titanic Quarter and Botanic are all walkable from our properties. Pick up a free city map at the Welcome Centre on Donegall Square.</div></div>
       <div class="tc2"><div class="tc2-icon">&#128690;</div><div class="tc2-title">Belfast Bikes</div><div class="tc2-desc">Belfast&rsquo;s public bike hire scheme with docking stations across the city. Great for getting to Titanic Quarter or along the Lagan towpath. Day pass available from the app.</div></div>
       <div class="tc2"><div class="tc2-icon">&#128648;</div><div class="tc2-title">From the Airport</div><div class="tc2-desc"><strong>City Airport (BHD):</strong> Taxi &pound;15&ndash;20 or Airport Express 600 bus to Europa (every 20 min, &pound;3.50). <strong>International (BFS):</strong> Aircoach to Europa every 30 min, &pound;8. Taxi around &pound;35.</div></div>
@@ -406,7 +416,10 @@
 <!-- GIANT'S CAUSEWAY FEATURE -->
 <section class="guide-section gs-alt" id="causeway">
   <div class="gs-inner">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Columnar_Basalt_Giants_Causeway_Northern_Ireland.jpg/1200px-Columnar_Basalt_Giants_Causeway_Northern_Ireland.jpg" alt="Giant's Causeway Northern Ireland" style="width:100%;max-height:420px;object-fit:cover;border-radius:4px;margin-bottom:32px"/>
+    <div style="position:relative;margin-bottom:32px">
+      <img src="images/belfast-pictures/Giants Causeway.jpg" alt="Giant's Causeway Northern Ireland" style="width:100%;max-height:420px;object-fit:cover;border-radius:4px;display:block"/>
+      <p class="img-credit">Photo by Korng Sok on <a href="https://unsplash.com">Unsplash</a></p>
+    </div>
     <div class="two-col">
       <div>
         <p class="se">UNESCO World Heritage Site</p>
